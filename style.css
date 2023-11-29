@@ -1,0 +1,280 @@
+#header {
+    position: fixed;
+    left: 20px;
+  }
+  
+  header {
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    position: fixed;
+    display: flex;
+    font-size: 18px
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: rgba(45, 45, 45, 0.9);
+    margin: 30px;
+  }
+  
+  code {
+    position: relative;
+    display: flex;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 20px;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(45, 45, 45, 0.1);
+  }
+  
+  .header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    grid-area:1/1/2/2;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 20px 34px 20px 35px;
+    font-size: 30px;
+    border: 1px solid black;
+   }
+  
+  
+  #navbar {
+    position: fixed;
+    display: block;
+    font-size: 18px;
+    
+  }
+  
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  #main-doc {
+    position: relative;
+    font-size: 16px;
+    display: block;
+    grid-column: 2/3;
+    grid-row: 1/20;
+    grid-area: 2/1/3/20;
+    left: 280px;
+    bottom: 30px;
+    margin: 10px;
+    padding: 0px 480px 10px 0px;
+    line-height: 25px;
+    border: 1px bold gray;
+  
+  }
+  
+   .Introduction {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-area: 2/1/3/2;
+    position: fixed;
+    left: 0px;
+    top: 75px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  
+  }
+  
+  .What_you_should_already_know {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    grid-area: 3/1/4/2;
+    position: fixed;
+    left: 0px;
+    top: 118px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 279px 15px 35px;
+    border: 1px solid black;
+  
+  }
+  .JavaScript_and_Java {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    grid-area: 4/1/5/2;
+    position: fixed;
+    top: 171px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .Hello_world {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    grid-area: 5/1/6/2;
+    position: fixed;
+    top: 214px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;  
+  }
+  
+  .Variables {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    grid-area: 6/1/7/2;
+    position: fixed;
+    top: 257px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;  
+  
+  }
+  
+  .Declaring_variables {
+    grid-row: 7/8;
+    grid-column: 1/2;
+    grid-area: 7/1/8/2;
+    position: fixed;
+    left: 0px;
+    top: 300px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;  
+  }
+  
+  .Variable_scope { 
+    grid-row: 8/9;
+    grid-column: 1/2;
+    grid-area: 8/1/9/2;
+    position: fixed;
+    top: 343px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .Global_variables {
+    grid-row: 9/10;
+    grid-column: 1/2;
+    grid-area: 9/1/10/2;
+    position: fixed;
+    top: 386px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .constants {
+    grid-row: 10/11;
+    grid-column: 1/2;
+    grid-area: 10/1/11/2;
+    position: fixed;
+    top: 429px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .Data_types {
+    grid-row: 11/12;
+    grid-column: 1/2;
+    grid-area: 11/1/12/2;
+    position: fixed;
+    left: 0px;
+    top: 472px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .if_else_statement {
+    grid-row: 12/13;
+    grid-column: 1/2;
+    grid-area: 12/1/13/2;
+    position: fixed;
+    top: 515px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .While_statement {
+    grid-row: 13/14;
+    grid-column: 1/2;
+    grid-area: 13/1/14/2;
+    position: fixed;
+    top: 558px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .Function_declarations {
+    grid-row: 14/15;
+    grid-column: 1/2;
+    grid-area: 14/1/15/2;
+    position: fixed;
+    top: 601px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 10px 35px;
+    border: 1px solid black;
+  }
+  
+  .Reference {
+    grid-row: 15/20;
+    grid-column: 1/2;
+    grid-area: 15/1/20/2;
+    position: fixed;
+    top: 644px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 279px 100px 35px;
+    border: 1px solid black;
+  }
+  
+  
+   
+  body {
+    position: relative;
+    left: 100px;
+    display: grid;
+    grid-template-column: 200px 1000px;
+    grid-template-rows: 200px 1000px;
+    grid-template-area: 
+      "header content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content"
+      "nav content";
+    grid-column-gap: 0px;
+    width: 100%;
+    font-family: arial;
+  }
+  
+  @media (min-width: 300px) {
+    body {
+    grid-template-column: 200px 1000px;
+    grid-template-rows: 50px 1000px;
+    grid-template-area: "header content";
+   }
+  }
